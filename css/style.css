@@ -4,7 +4,6 @@
 }
 
 /* ---- Task-1 Section Design Starts ---- */
-
 #task-1 {
     height: 90vh;
     background-color: #F4F4F4;
@@ -49,5 +48,58 @@
     background-color: #fff;
     color: #000;
 }
-
 /* ---- Task-1 Section Design Ends ---- */
+
+
+/* ---- Task-2 Section Design Starts ---- */
+#task-2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+#task-2 * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    transition: .3s;
+}
+
+.box-title h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.box-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific box colors */
+.box-watch {
+    background-color: #00c4ff;
+}
+
+.box-shoe {
+    background-color: #007bff;
+}
+
+.box-bag {
+    background-color: #00934c;
+}
+/* ---- Task-2 Section Design Ends ---- */
+
+
+
+/* ---- Task-2 Section Design Starts ---- */
+/* ---- Task-2 Section Design Ends ---- */
